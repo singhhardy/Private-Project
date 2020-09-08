@@ -1,0 +1,81 @@
+.premium {
+    margin-top: 75px;
+    background: #f4f4f4;
+}
+
+.premium-page{
+    text-align: center;
+    padding: 100px;
+}
+
+.premium-page h1{
+    font-size: 70px;
+    padding-bottom: 40px;
+}
+
+.premium-page p{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: rgb(51, 49, 49);
+}
+
+.premium-page button{
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 20rem;
+    background: rgb(72, 118, 241);
+}
+
+.premium-page button a{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+.premium-page .text2{
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.restt{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.restt a{
+    color: rgb(0, 68, 255);
+}
+
+/* Boxes */
+
+.box{
+    display: flex;
+    float: right;
+    margin-left: 40px;
+    padding: 40px 0 30px 100px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.box1{
+    padding: 30px;
+}
+
+.box1 i{
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: rgba(247, 31, 31, 0.877);
+}
+
+.box1 h1{
+    color: #f4f4f4;
+    padding: 10px 0;
+}
+
+.box1 p{
+    color: #ffff;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Project</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/profile.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+</head>
+<body>
+<div class="wrapper">
+<div class="top_navbar">
+<div class="hamburger">
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+</div>
+<div class="top_menu">
+<div class="logo">logo</div>
+<ul>
+    <div class="searchbar">
+        <input type="search" placeholder="Search...">
+    <button><a href="#">
+    <i class="fas fa-search"></i></a></button>
+    </div>
+    <li><a href="#">
+<i class="fas fa-camera"></i>
+</a></li>
+<li><a href="profile.html">
+<i class="fas fa-user"></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class="sidebar">
+<ul>
+<li><a href="index.html">
+<span class="icon"><i class="fas fa-home"></i></span>
+<span class="title">Home</span></a></li>
+<li><a href="trending.html">
+<span class="icon"><i class="fas fa-fire"></i></span>
+<span class="title">Trending</span>
+</a></li>
+<li><a href="subscriptions.html">
+<span class="icon"><i class="fas fa-video"></i></span>
+<span class="title">Subscriptions</span>
+</a></li>
+<br>
+<hr>
+<br>
+<li><a href="history.html" class="active">
+<span class="icon"><i class="fas fa-clock"></i></span>
+<span class="title">History</span>
+</a></li>
+<li><a href="settings.html">
+<span class="icon"><i class="fas fa-cog"></i></span>
+<span class="title">Settings</span>
+</a></li>
+<li><a href="premium.html">
+    <span class="icon"><i class="fa fa-star"></i></span>
+    <span class="title">Premium</span>
+    </a></li>    
+</ul>
+</div>
+
+<!-- profile -->
+  
+    <div class="container">
+        <div class="profile-header">
+            <div class="profile-img">
+            <img src="/img/showcase.jpeg" width="200px">
+        </div>
+        <div class="profile-nav-info">
+            <h3 class="user-name">Hardy Singh</h3>
+            <div class="address">
+                <p class="state">Jammy & Kashmir</p>
+                <span class="country">India</span>
+            </div>
+        </div>
+        <div class="profile-option">
+            <div class="notification">
+                <i class="fa fa-bell"></i>
+                <span class="alert-message">1</span>
+            </div>
+        </div>
+    </div>
+    <div class="main-bd">
+        <div class="left-side">
+            <div class="profile-side">
+                <p class="mobile-no">
+                    <i class="fa fa-phone"></i>+91 8899349730
+                </p>
+                <p>
+                <div class="user-mail">
+                    <i class="fa fa-envelope"></i>
+                    singhhardy.com</p>
+                    <div class="user-bio">
+                        <h3>Bio</h3>
+                        <p class="bio">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sapiente maiores quibusdam reiciendis, reprehenderit culpa.</p>
+                    </div>
+                    <div class="profile-btn">
+                        <button class="chatbtn">
+                            <i class="fa fa-comment">Chat</i>
+                        </button>
+                        <button class="createbtn">
+                            <i class="fa fa-plus">Create</i>
+                        </button>
+                    </div>
+                    <div class="user-rating">
+                        <h3 class="rating">4.5</h3>
+                        <div class="rate">
+                        </div>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                      <span class="no-user"><span>123</span>&nbsp; &nbsp; reviews</span>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="nav">
+                <ul>
+                    <li onclick="tabs(0)" class="user-post active">Posts</li>
+                    <li onclick="tabs(1)" class="user-review">Reviews</li>
+                    <li onclick="tabs(2)" class="user-settings">Payment</li>
+                </ul>
+            </div>
+            <div class="profile-body">
+                <div class="profile-posts tab">
+                   <h1>Your Posts</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptas odio voluptatem consequuntur. Doloribus, vitae hic. Quaerat delectus officia accusamus velit facilis nihil saepe. Ipsa saepe provident repellendus accusamus nobis distinctio aut qui, ullam adipisci, repudiandae ratione illo non,
+                        quidem quos at incidunt voluptatum. Omnis possimus voluptas consectetur. Repellat nam consequuntur nisi nobis totam molestiae, natus architecto velit, quisquam perferendis adipisci neque! Ratione excepturi error vero? Porro veniam quasi deserunt?</p>
+                </div>
+                <div class="profile-review tab">
+                   <h1>User Reviews</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim autem alias amet labore nam culpa exercitationem animi architecto aspernatur officia dolorem temporibus qui, fuga, sunt soluta dolore neque assumenda et laudantium veritatis. Ratione, dignissimos. Ex natus deleniti ipsum dolor suscipit labore a quisquam aut optio minima error fugit aspernatur eius non magnam nulla placeat hic consequuntur animi sit expedita adipisci culpa,
+                        veniam corporis! At vero excepturi nulla perspiciatis corrupti magnam!</p>
+                </div>
+                <div class="profile-settings tab">
+                   <h1>Account Settings</h1>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam quos dicta enim quo minima fuga? Placeat id odit eveniet at itaque reiciendis magni voluptas atque dolorum error consectetur consequuntur, facilis dolore voluptatum iste voluptates nam beatae quia officia. Minus quibusdam ratione nostrum. Maxime tenetur adipisci ut mollitia magnam officiis ipsa! Delectus, doloribus cupiditate. Hic nemo necessitatibus quod dolore? Voluptates rem tempore perferendis esse maiores 
+                       provident a error itaque exercitationem ad.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <section class="banner"></section>
+
+      <script src="/js/profile.js"></script>
+      <script src="/js/main.js"></script>
+</body>
+</html>
